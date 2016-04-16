@@ -1,0 +1,11 @@
+#!/System/Library/Frameworks/Ruby.framework/Versions/Current/usr/bin/ruby
+
+require 'cgi'
+
+url = "command-c://x-callback-url/shareText?deviceUUID={uuid}&text={query}"
+query = ENV['POPCLIP_TEXT']
+url.sub!(/\{query\}/,query)
+uuid = ENV['POPCLIP_OPTION_UUID']
+url.sub!(/\{uuid\}/,uuid)
+
+%x{open "#{url}"}

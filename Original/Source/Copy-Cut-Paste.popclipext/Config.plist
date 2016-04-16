@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>copy.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>C</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+			</dict>
+			<key>Regular Expression</key>
+			<string>(?s)^.*$</string>
+			<key>Requirements</key>
+			<array>
+				<string>copy</string>
+			</array>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Copy</string>
+				<key>zh-Hans</key>
+				<string>拷贝</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>cut.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>X</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+			</dict>
+			<key>Regular Expression</key>
+			<string>(?s)^.*$</string>
+			<key>Requirements</key>
+			<array>
+				<string>cut</string>
+			</array>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Cut</string>
+				<key>zh-Hans</key>
+				<string>剪切</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>paste.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>V</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+			</dict>
+			<key>Regular Expression</key>
+			<string>(?s)^.*$</string>
+			<key>Requirements</key>
+			<array>
+				<string>paste</string>
+			</array>
+			<key>Title</key>
+			<dict>
+				<key>en</key>
+				<string>Paste</string>
+				<key>zh-Hans</key>
+				<string>粘贴</string>
+			</dict>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Copy-Cut-Paste</string>
+	<key>Extension Identifier</key>
+	<string>com.Rudy.PopClipExtension.Copy-Cut-Paste</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Copy-Cut-Paste</string>
+		<key>zh-Hans</key>
+		<string>拷贝-剪切-粘贴</string>
+	</dict>
+	<key>Position</key>
+	<real>1.9</real>
+	<key>Version</key>
+	<integer>2</integer>
+</dict>
+</plist>

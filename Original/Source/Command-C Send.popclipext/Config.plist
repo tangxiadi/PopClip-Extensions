@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Extension Description</key>
+	<string>Send selected text to Command-C</string>
+	<key>Extension Identifier</key>
+	<string>com.Rudy.PopClipExtension.Command-C_Send</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Command-C Send</string>
+		<key>zh-Hans</key>
+		<string>Command-C 发送</string>
+	</dict>
+	<key>Extension Image File</key>
+	<string>Command-C_Send.png</string>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Before</key>
+			<string>copy</string>
+			<key>AppleScript File</key>
+			<string>script.applescript</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>script.rb</string>
+			<key>Image File</key>
+			<string>iphone.png</string>
+			<key>Long Running</key>
+			<false/>
+			<key>Title</key>
+			<string>Command-C Send</string>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Default Value</key>
+			<string>AAAAAAAA-BBBB-CCCC-DDDD-0123456789AB</string>
+			<key>Option Identifier</key>
+			<string>uuid</string>
+			<key>Option Label</key>
+			<string>Command-C UUID</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>it.danilotorrisi.command-c-osx</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>https://danilo.to/</string>
+			<key>Name</key>
+			<string>Alfred</string>
+		</dict>
+	</array>
+	<key>Required Software Version</key>
+	<integer>701</integer>
+</dict>
+</plist>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>popclip-appear</string>
+			<key>Image File</key>
+			<string>undo.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>Z</string>
+				<key>modifiers</key>
+				<real>1048576</real>
+			</dict>
+			<key>Regular Expression</key>
+			<string>(?s)^$</string>
+			<key>Requirements</key>
+			<array>
+				<string>paste</string>
+			</array>
+			<key>Title</key>
+			<string>Undo</string>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>popclip-appear</string>
+			<key>Image File</key>
+			<string>undo.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>Z</string>
+				<key>modifiers</key>
+				<real>1048576</real>
+			</dict>
+			<key>Requirements</key>
+			<array>
+				<string>cut</string>
+			</array>
+			<key>Title</key>
+			<string>Undo</string>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>popclip-appear</string>
+			<key>Image File</key>
+			<string>redo.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>Z</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+			</dict>
+			<key>Regular Expression</key>
+			<string>(?s)^$</string>
+			<key>Requirements</key>
+			<array>
+				<string>paste</string>
+			</array>
+			<key>Title</key>
+			<string>Redo</string>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>popclip-appear</string>
+			<key>Image File</key>
+			<string>redo.png</string>
+			<key>Key Combo</key>
+			<dict>
+				<key>keyChar</key>
+				<string>Z</string>
+				<key>modifiers</key>
+				<integer>1179648</integer>
+			</dict>
+			<key>Requirements</key>
+			<array>
+				<string>cut</string>
+			</array>
+			<key>Title</key>
+			<string>Redo</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Undo and Redo Input.</string>
+	<key>Extension Identifier</key>
+	<string>com.Rudy.PopClipExtension.Undo-Redo</string>
+	<key>Extension Name</key>
+	<dict>
+		<key>en</key>
+		<string>Undo-Redo</string>
+		<key>zh-Hans</key>
+		<string>撤销-重做</string>
+	</dict>
+	<key>Required Software Version</key>
+	<integer>693</integer>
+</dict>
+</plist>

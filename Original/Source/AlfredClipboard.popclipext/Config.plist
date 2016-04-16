@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>After</key>
+			<string>popclip-appear</string>
+			<key>AppleScript File</key>
+			<string>AlfredClipboard.applescript</string>
+			<key>Image File</key>
+			<string>AlfredClipboard.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^$</string>
+			<key>Requirements</key>
+			<array>
+				<string>paste</string>
+			</array>
+			<key>Title</key>
+			<string>Alfred Clipboard</string>
+		</dict>
+		<dict>
+			<key>After</key>
+			<string>popclip-appear</string>
+			<key>AppleScript File</key>
+			<string>AlfredClipboard.applescript</string>
+			<key>Image File</key>
+			<string>AlfredClipboard.png</string>
+			<key>Requirements</key>
+			<array>
+				<string>cut</string>
+			</array>
+			<key>Title</key>
+			<string>Alfred Clipboard</string>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Default Value</key>
+			<string>clip</string>
+			<key>Option Identifier</key>
+			<string>clipboard</string>
+			<key>Option Label</key>
+			<string>Clipboard Viewer Keyword</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.runningwithcrayons.Alfred-2</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>http://alfredapp.com/</string>
+			<key>Name</key>
+			<string>Alfred</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Activate Alfred Clipboard.</string>
+	<key>Extension Identifier</key>
+	<string>com.Rudy.PopClipExtension.AlfredClipboard</string>
+	<key>Extension Name</key>
+	<string>Alfred Clipboard</string>
+	<key>Required Software Version</key>
+	<integer>693</integer>
+</dict>
+</plist>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>Image File</key>
+			<string>GoogleSearch.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+			<key>Title</key>
+			<string>Google Search</string>
+			<key>URL</key>
+			<string>https://{popclip option googlesite}/search?q={popclip text}</string>
+		</dict>
+		<dict>
+			<key>Image File</key>
+			<string>OtherSearch.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^.{1,1900}$</string>
+			<key>Title</key>
+			<string>Search</string>
+			<key>Script Interpreter</key>
+			<string>/usr/bin/ruby</string>
+			<key>Shell Script File</key>
+			<string>OtherSearch.rb</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Google and Other search engines. (Selective)</string>
+	<key>Extension Identifier</key>
+	<string>com.Rudy.PopClipExtension.SuperSearch</string>
+	<key>Extension Name</key>
+	<string>Super Search</string>
+	<key>Extension Image File</key>
+	<string>OtherSearch.png</string>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Identifier</key>
+			<string>googlesite</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Google Site</string>
+				<key>zh-Hans</key>
+				<string>Google 站点</string>
+			</dict>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>www.google.com</string>
+				<string>www.google.com.ar</string>
+				<string>www.google.com.au</string>
+				<string>www.google.com.br</string>
+				<string>www.google.com.co</string>
+				<string>www.google.com.do</string>
+				<string>www.google.com.ec</string>
+				<string>www.google.com.eg</string>
+				<string>www.google.com.hk</string>
+				<string>www.google.com.kw</string>
+				<string>www.google.com.ly</string>
+				<string>www.google.com.mx</string>
+				<string>www.google.com.my</string>
+				<string>www.google.com.ng</string>
+				<string>www.google.com.pe</string>
+				<string>www.google.com.ph</string>
+				<string>www.google.com.pk</string>
+				<string>www.google.com.qa</string>
+				<string>www.google.com.sa</string>
+				<string>www.google.com.sg</string>
+				<string>www.google.com.tn</string>
+				<string>www.google.com.tr</string>
+				<string>www.google.com.tw</string>
+				<string>www.google.com.ua</string>
+				<string>www.google.com.vn</string>
+				<string>www.google.co.id</string>
+				<string>www.google.co.il</string>
+				<string>www.google.co.in</string>
+				<string>www.google.co.jp</string>
+				<string>www.google.co.kr</string>
+				<string>www.google.co.ma</string>
+				<string>www.google.co.nz</string>
+				<string>www.google.co.th</string>
+				<string>www.google.co.uk</string>
+				<string>www.google.co.ve</string>
+				<string>www.google.co.za</string>
+				<string>www.google.ae</string>
+				<string>www.google.at</string>
+				<string>www.google.az</string>
+				<string>www.google.be</string>
+				<string>www.google.bg</string>
+				<string>www.google.ca</string>
+				<string>www.google.ch</string>
+				<string>www.google.cl</string>
+				<string>www.google.cn</string>
+				<string>www.google.cz</string>
+				<string>www.google.de</string>
+				<string>www.google.dk</string>
+				<string>www.google.dz</string>
+				<string>www.google.es</string>
+				<string>www.google.fi</string>
+				<string>www.google.fr</string>
+				<string>www.google.gr</string>
+				<string>www.google.hr</string>
+				<string>www.google.hu</string>
+				<string>www.google.ie</string>
+				<string>www.google.it</string>
+				<string>www.google.kz</string>
+				<string>www.google.lk</string>
+				<string>www.google.lt</string>
+				<string>www.google.nl</string>
+				<string>www.google.no</string>
+				<string>www.google.pl</string>
+				<string>www.google.pt</string>
+				<string>www.google.ro</string>
+				<string>www.google.rs</string>
+				<string>www.google.ru</string>
+				<string>www.google.se</string>
+				<string>www.google.sk</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Option Identifier</key>
+			<string>othersite</string>
+			<key>Option Label</key>
+			<dict>
+				<key>en</key>
+				<string>Other Search Site</string>
+				<key>zh-Hans</key>
+				<string>其他搜索网站</string>
+			</dict>
+			<key>Option Type</key>
+			<string>multiple</string>
+			<key>Option Values</key>
+			<array>
+				<string>baidu.com</string>
+				<string>so.com</string>
+				<string>sogou.com</string>
+				<string>bing.com</string>
+				<string>yahoo.com</string>
+				<string>duckduckgo.com</string>
+				<string>Custom Other Search</string>
+			</array>
+		</dict>
+		<dict>
+			<key>Option Default Value</key>
+			<string>https://www.search.com/search?q={query}</string>
+			<key>Option Identifier</key>
+			<string>customsearch</string>
+			<key>Option Label</key>
+			<string>Custom Other Search</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>Required Software Version</key>
+	<integer>693</integer>
+</dict>
+</plist>

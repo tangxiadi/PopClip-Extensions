@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Actions</key>
+	<array>
+		<dict>
+			<key>AppleScript File</key>
+			<string>AlfredTranslation.applescript</string>
+			<key>Image File</key>
+			<string>AlfredTranslation.png</string>
+			<key>Regular Expression</key>
+			<string>(?s)^[^\n\r]{1,300}$</string>
+			<key>Title</key>
+			<string>Alfred Translation</string>
+		</dict>
+	</array>
+	<key>Options</key>
+	<array>
+		<dict>
+			<key>Option Default Value</key>
+			<string>tr</string>
+			<key>Option Identifier</key>
+			<string>translation</string>
+			<key>Option Label</key>
+			<string>Translation Workflows Keyword</string>
+			<key>Option Type</key>
+			<string>string</string>
+		</dict>
+	</array>
+	<key>Apps</key>
+	<array>
+		<dict>
+			<key>Bundle Identifier</key>
+			<string>com.runningwithcrayons.Alfred-2</string>
+			<key>Check Installed</key>
+			<true/>
+			<key>Link</key>
+			<string>http://alfredapp.com/</string>
+			<key>Name</key>
+			<string>Alfred</string>
+		</dict>
+	</array>
+	<key>Extension Description</key>
+	<string>Activate Alfred Translation.</string>
+	<key>Extension Identifier</key>
+	<string>com.Rudy.PopClipExtension.AlfredTranslation</string>
+	<key>Extension Name</key>
+	<string>Alfred Translation</string>
+</dict>
+</plist>
